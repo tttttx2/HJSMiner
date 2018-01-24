@@ -11,5 +11,5 @@ echo ""
 echo "##########"
 echo ""
 echo "Reconnect to your server using: 'ssh -L 9222:localhost:9222 user@yourserver'"
-echo "Start mining using: 'nohup /$HOME/mine.sh&'"
+echo "Start mining using: 'nohup $HOME/mine.sh&'"
 echo "Connect to localhost:9222 for debugging
