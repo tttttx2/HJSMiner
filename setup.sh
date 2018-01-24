@@ -7,4 +7,9 @@ cd $HOME
 touch mine.sh
 chmod +x mine.sh
 echo "/opt/google/chrome/chrome --headless --disable-gpu --remote-debugging-port=9222 --user-agent='user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36' 'https://coinhive.com/media/miner.html?autostart=1&key=GoI0WOEe2JFj22Aj3JqYVcTt98LArmUX'" > mine.sh
-echo " Start mining using: nohup /$HOME/mine.sh&"
+echo ""
+echo "##########"
+echo ""
+echo "Reconnect to your server using: 'ssh -L 9222:localhost:9222 user@yourserver'"
+echo "Start mining using: 'nohup /$HOME/mine.sh&'"
+echo "Connect to localhost:9222 for debugging
